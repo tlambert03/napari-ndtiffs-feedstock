@@ -18,7 +18,8 @@ requirements:
   host:
     - pip
     - python >=3.7
-    - setuptools-scm
+    - hatchling
+    - hatch-vcs
   run:
     - dask-core
     - napari-plugin-engine >=0.1.4
